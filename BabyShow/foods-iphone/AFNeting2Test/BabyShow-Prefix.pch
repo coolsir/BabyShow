@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'AFNeting2Test' target in the 'AFNeting2Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "SNConstants.h"
+    #import "UIViewExt.h"
+     #import "WXHLGlobalUICommon.h"
+    #import "AppDelegate.h"
+#endif
